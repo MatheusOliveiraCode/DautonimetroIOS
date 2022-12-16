@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095AC538294CE73500534D27 /* DautonimetroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC537294CE73500534D27 /* DautonimetroApp.swift */; };
+		095AC53A294CE73500534D27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC539294CE73500534D27 /* ContentView.swift */; };
+		095AC53C294CE73700534D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095AC53B294CE73700534D27 /* Assets.xcassets */; };
+		095AC53F294CE73700534D27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095AC53E294CE73700534D27 /* Preview Assets.xcassets */; };
+		095AC549294CE73700534D27 /* DautonimetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC548294CE73700534D27 /* DautonimetroTests.swift */; };
+		095AC553294CE73700534D27 /* DautonimetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC552294CE73700534D27 /* DautonimetroUITests.swift */; };
+		095AC555294CE73700534D27 /* DautonimetroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC554294CE73700534D27 /* DautonimetroUITestsLaunchTests.swift */; };
+		095AC562294CECF300534D27 /* ColorDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC561294CECF300534D27 /* ColorDetection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		095AC545294CE73700534D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095AC52C294CE73500534D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095AC533294CE73500534D27;
+			remoteInfo = Dautonimetro;
+		};
+		095AC54F294CE73700534D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095AC52C294CE73500534D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095AC533294CE73500534D27;
+			remoteInfo = Dautonimetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		095AC534294CE73500534D27 /* Dautonimetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dautonimetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095AC537294CE73500534D27 /* DautonimetroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DautonimetroApp.swift; sourceTree = "<group>"; };
+		095AC539294CE73500534D27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		095AC53B294CE73700534D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		095AC53E294CE73700534D27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		095AC544294CE73700534D27 /* DautonimetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DautonimetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095AC548294CE73700534D27 /* DautonimetroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DautonimetroTests.swift; sourceTree = "<group>"; };
+		095AC54E294CE73700534D27 /* DautonimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DautonimetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095AC552294CE73700534D27 /* DautonimetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DautonimetroUITests.swift; sourceTree = "<group>"; };
+		095AC554294CE73700534D27 /* DautonimetroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DautonimetroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		095AC561294CECF300534D27 /* ColorDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		095AC531294CE73500534D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC541294CE73700534D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC54B294CE73700534D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095AC52B294CE73500534D27 = {
+			isa = PBXGroup;
+			children = (
+				095AC536294CE73500534D27 /* Dautonimetro */,
+				095AC547294CE73700534D27 /* DautonimetroTests */,
+				095AC551294CE73700534D27 /* DautonimetroUITests */,
+				095AC535294CE73500534D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095AC535294CE73500534D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095AC534294CE73500534D27 /* Dautonimetro.app */,
+				095AC544294CE73700534D27 /* DautonimetroTests.xctest */,
+				095AC54E294CE73700534D27 /* DautonimetroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095AC536294CE73500534D27 /* Dautonimetro */ = {
+			isa = PBXGroup;
+			children = (
+				095AC537294CE73500534D27 /* DautonimetroApp.swift */,
+				095AC539294CE73500534D27 /* ContentView.swift */,
+				095AC53B294CE73700534D27 /* Assets.xcassets */,
+				095AC53D294CE73700534D27 /* Preview Content */,
+				095AC561294CECF300534D27 /* ColorDetection.swift */,
+			);
+			path = Dautonimetro;
+			sourceTree = "<group>";
+		};
+		095AC53D294CE73700534D27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				095AC53E294CE73700534D27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		095AC547294CE73700534D27 /* DautonimetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				095AC548294CE73700534D27 /* DautonimetroTests.swift */,
+			);
+			path = DautonimetroTests;
+			sourceTree = "<group>";
+		};
+		095AC551294CE73700534D27 /* DautonimetroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				095AC552294CE73700534D27 /* DautonimetroUITests.swift */,
+				095AC554294CE73700534D27 /* DautonimetroUITestsLaunchTests.swift */,
+			);
+			path = DautonimetroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095AC533294CE73500534D27 /* Dautonimetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095AC558294CE73700534D27 /* Build configuration list for PBXNativeTarget "Dautonimetro" */;
+			buildPhases = (
+				095AC530294CE73500534D27 /* Sources */,
+				095AC531294CE73500534D27 /* Frameworks */,
+				095AC532294CE73500534D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dautonimetro;
+			productName = Dautonimetro;
+			productReference = 095AC534294CE73500534D27 /* Dautonimetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		095AC543294CE73700534D27 /* DautonimetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095AC55B294CE73700534D27 /* Build configuration list for PBXNativeTarget "DautonimetroTests" */;
+			buildPhases = (
+				095AC540294CE73700534D27 /* Sources */,
+				095AC541294CE73700534D27 /* Frameworks */,
+				095AC542294CE73700534D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095AC546294CE73700534D27 /* PBXTargetDependency */,
+			);
+			name = DautonimetroTests;
+			productName = DautonimetroTests;
+			productReference = 095AC544294CE73700534D27 /* DautonimetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		095AC54D294CE73700534D27 /* DautonimetroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095AC55E294CE73700534D27 /* Build configuration list for PBXNativeTarget "DautonimetroUITests" */;
+			buildPhases = (
+				095AC54A294CE73700534D27 /* Sources */,
+				095AC54B294CE73700534D27 /* Frameworks */,
+				095AC54C294CE73700534D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095AC550294CE73700534D27 /* PBXTargetDependency */,
+			);
+			name = DautonimetroUITests;
+			productName = DautonimetroUITests;
+			productReference = 095AC54E294CE73700534D27 /* DautonimetroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095AC52C294CE73500534D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					095AC533294CE73500534D27 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					095AC543294CE73700534D27 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 095AC533294CE73500534D27;
+					};
+					095AC54D294CE73700534D27 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 095AC533294CE73500534D27;
+					};
+				};
+			};
+			buildConfigurationList = 095AC52F294CE73500534D27 /* Build configuration list for PBXProject "Dautonimetro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095AC52B294CE73500534D27;
+			productRefGroup = 095AC535294CE73500534D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095AC533294CE73500534D27 /* Dautonimetro */,
+				095AC543294CE73700534D27 /* DautonimetroTests */,
+				095AC54D294CE73700534D27 /* DautonimetroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		095AC532294CE73500534D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095AC53F294CE73700534D27 /* Preview Assets.xcassets in Resources */,
+				095AC53C294CE73700534D27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC542294CE73700534D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC54C294CE73700534D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		095AC530294CE73500534D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095AC53A294CE73500534D27 /* ContentView.swift in Sources */,
+				095AC562294CECF300534D27 /* ColorDetection.swift in Sources */,
+				095AC538294CE73500534D27 /* DautonimetroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC540294CE73700534D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095AC549294CE73700534D27 /* DautonimetroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095AC54A294CE73700534D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095AC553294CE73700534D27 /* DautonimetroUITests.swift in Sources */,
+				095AC555294CE73700534D27 /* DautonimetroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		095AC546294CE73700534D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095AC533294CE73500534D27 /* Dautonimetro */;
+			targetProxy = 095AC545294CE73700534D27 /* PBXContainerItemProxy */;
+		};
+		095AC550294CE73700534D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095AC533294CE73500534D27 /* Dautonimetro */;
+			targetProxy = 095AC54F294CE73700534D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		095AC556294CE73700534D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		095AC557294CE73700534D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095AC559294CE73700534D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dautonimetro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.Dautonimetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		095AC55A294CE73700534D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dautonimetro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.Dautonimetro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		095AC55C294CE73700534D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.DautonimetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dautonimetro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dautonimetro";
+			};
+			name = Debug;
+		};
+		095AC55D294CE73700534D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.DautonimetroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dautonimetro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dautonimetro";
+			};
+			name = Release;
+		};
+		095AC55F294CE73700534D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.DautonimetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dautonimetro;
+			};
+			name = Debug;
+		};
+		095AC560294CE73700534D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lothos.DautonimetroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dautonimetro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095AC52F294CE73500534D27 /* Build configuration list for PBXProject "Dautonimetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095AC556294CE73700534D27 /* Debug */,
+				095AC557294CE73700534D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095AC558294CE73700534D27 /* Build configuration list for PBXNativeTarget "Dautonimetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095AC559294CE73700534D27 /* Debug */,
+				095AC55A294CE73700534D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095AC55B294CE73700534D27 /* Build configuration list for PBXNativeTarget "DautonimetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095AC55C294CE73700534D27 /* Debug */,
+				095AC55D294CE73700534D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095AC55E294CE73700534D27 /* Build configuration list for PBXNativeTarget "DautonimetroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095AC55F294CE73700534D27 /* Debug */,
+				095AC560294CE73700534D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095AC52C294CE73500534D27 /* Project object */;
+}
